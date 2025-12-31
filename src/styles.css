@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.app {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.controls button {
+  margin-right: 10px;
+  padding: 6px 12px;
+}
+
+.canvas {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.node {
+  background: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid #ddd;
+  min-width: 120px;
+  text-align: center;
+}
+
+.node.start {
+  border-color: #0070f3;
+}
+
+.node.action {
+  border-color: #00b894;
+}
+
+.node.end {
+  border-color: #d63031;
+}
+
+.node input {
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.node button {
+  margin-top: 6px;
+}
